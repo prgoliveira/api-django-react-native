@@ -1,2 +1,3 @@
 
 myapp/myapp/secret_settings.py
+myapp/db.sqlite3
