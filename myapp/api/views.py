@@ -1,6 +1,4 @@
-import re
 from rest_framework import serializers
-
 from rest_framework.serializers import Serializer
 from .models import Article
 from .serializers import ArticleSerializer
@@ -10,10 +8,6 @@ from rest_framework.parsers import JSONParser
 from rest_framework.decorators import api_view
 from rest_framework import status
 from rest_framework.response import Response
-
-
-def Index(request):
-    return HttpResponse('its working')
 
 
 @api_view(['GET', 'POST'])
